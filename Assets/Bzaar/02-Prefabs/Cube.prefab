@@ -13,9 +13,7 @@ GameObject:
   - component: {fileID: 4012001533327189812}
   - component: {fileID: 4012001533327189813}
   - component: {fileID: 4012001533327189810}
-  - component: {fileID: 4012001533327189809}
-  - component: {fileID: 4012001533327189808}
-  - component: {fileID: 4012001533327189823}
+  - component: {fileID: 6024669987084813548}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -126,23 +124,7 @@ MonoBehaviour:
   Timeout: 8
   Collider: 0
   shaderOverride: {fileID: 0}
---- !u!54 &4012001533327189809
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4012001533327189815}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 14
-  m_CollisionDetection: 0
---- !u!114 &4012001533327189808
+--- !u!114 &6024669987084813548
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,19 +133,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4012001533327189815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eabf7862ca4c0014a95b83b86d51bf58, type: 3}
+  m_Script: {fileID: 11500000, guid: efe4df7ff9062e436aca8131ab63be17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 22.26, y: 241.11, z: 0}
---- !u!114 &4012001533327189823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4012001533327189815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb1822f1751a4acabd7c1dba099b6b56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  speed: 1
+  moving: 1
+  moveTarget: 1
